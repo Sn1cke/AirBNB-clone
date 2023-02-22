@@ -24,7 +24,7 @@ export default function Card(props: card) {
   return (
     <div className="card">
       <img
-        src={`./public/images/${props.coverImg}`}
+        src={`./images/${props.coverImg}`}
         alt="kate zaferes"
         className="card-image"
       />
@@ -35,9 +35,9 @@ export default function Card(props: card) {
       )}
 
       <div className="card-info">
-        <img src="public\images\star.png" alt="star" />
+        <img src="./images/star.png" alt="star" />
         <span>{props.stats.rating}</span>
-        <span className="gray">({props.stats.reviewCount}) · </span>
+        <span className="gray">({props.stats.reviewCount}) - </span>
         <span className="gray">{props.location}</span>
       </div>
       <p>{props.title}</p>

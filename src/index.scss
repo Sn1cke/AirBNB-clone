@@ -55,7 +55,7 @@ body {
       position: relative;
       .status {
         position: absolute;
-        padding: 4px 7px;
+        padding: 2px 8px;
         background-color: #ffffff;
         top: 8px;
         left: 8px;
@@ -64,6 +64,7 @@ body {
           align-self: center;
           color: #222222;
           font-weight: 600;
+          font-size: 12px;
         }
       }
       .card-image {
@@ -83,6 +84,7 @@ body {
         display: flex;
         align-items: center;
         gap: 2px;
+        font-size: 14px;
         .gray {
           color: #918e9b;
         }
